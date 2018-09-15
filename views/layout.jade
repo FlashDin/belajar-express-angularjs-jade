@@ -1,0 +1,13 @@
+doctype html
+html
+    head
+        title= title
+        meta(name="viewport" content="width=device-width, initial-scale=1")
+        link(rel="stylesheet" href="/bower_components/angular-material/angular-material.min.css")
+        link(rel="stylesheet" href="/stylesheets/style.css")
+    body(ng-app="App")
+        block content
+        block scripts
+
+//$ lsof -i tcp:3000
+//$ kill -9 PID
